@@ -1,6 +1,5 @@
 "use client";
 import { Accordion } from "primereact/accordion";
-import { Button } from "primereact/button";
 
 export const FAQsSection = () => {
   return (
