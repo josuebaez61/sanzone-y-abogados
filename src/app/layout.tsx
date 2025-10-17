@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import PrimeSSRProvider from "@/providers/prime-ssr-provider";
+
 import "./globals.css";
+import { Footer } from "@/components/footer";
+import Header from "@/components/header";
+import { WhatsappButton } from "@/components/whatsapp-button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,11 +28,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ colorScheme: "light" }}>
+      <head>
+        <meta name="color-scheme" content="light" />
+        <meta name="theme-color" content="#ffffff" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
+        style={{ colorScheme: "light" }}
       >
-        {children}
+        <PrimeSSRProvider>
+          <Header />
+          {children}
+          <Footer />
+          <WhatsappButton />
+        </PrimeSSRProvider>
       </body>
     </html>
   );
