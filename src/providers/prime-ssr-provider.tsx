@@ -2,7 +2,7 @@
 import { PrimeReactProvider, PrimeReactStyleSheet } from "@primereact/core";
 import { useServerInsertedHTML } from "next/navigation";
 import * as React from "react";
-import Aura from "@primeuix/themes/aura";
+import { AppPreset } from "@/theme";
 
 const styledStyleSheet = new PrimeReactStyleSheet();
 
@@ -21,10 +21,13 @@ export default function PrimeSSRProvider({
 
   const primereact = {
     theme: {
-      preset: Aura,
+      preset: AppPreset,
       options: {
         darkModeSelector: false,
-        cssLayer: false,
+        cssLayer: {
+          name: "primereact",
+          order: "base, theme, primereact",
+        },
       },
     },
   };

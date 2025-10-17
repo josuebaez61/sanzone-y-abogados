@@ -4,7 +4,7 @@ import { Accordion } from "primereact/accordion";
 export const FAQsSection = () => {
   return (
     <section className="container mx-auto px-4">
-      <h2 className="text-2xl font-bold text-center mb-4">
+      <h2 className="text-2xl font-bold text-center mb-10">
         Preguntas frecuentes
       </h2>
       <Accordion>

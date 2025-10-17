@@ -11,13 +11,7 @@ export interface SidenavProps {
 
 export default function Sidenav({ open, navItems }: SidenavProps) {
   return (
-    <Drawer
-      open={open}
-      baseZIndex={1000}
-      autoZIndex={false}
-      appendTo={document.body}
-      modal={true}
-    >
+    <Drawer open={open} baseZIndex={1000} autoZIndex={false} modal={true}>
       {/* <Drawer.Trigger /> */}
       <Drawer.Portal>
         <Drawer.Header>
