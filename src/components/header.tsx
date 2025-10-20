@@ -16,7 +16,7 @@ export default function Header() {
       {/* Logo o nombre del estudio */}
       <div className="flex items-center">
         <Image
-          src={`${process.env.NODE_ENV === "production" ? "/sanzone-y-abogados" : ""}/assets/images/sanzone-horizontal.svg`}
+          src="/assets/images/sanzone-horizontal.svg"
           alt="Sanzone & Abogados"
           width={200}
           height={60}
