@@ -1,8 +1,8 @@
 "use client";
 import { NavItem } from "@/models";
 import Link from "next/link";
-import { Button } from "primereact/button";
 import { Drawer } from "primereact/drawer";
+import Image from "next/image";
 
 export interface SidenavProps {
   open: boolean;
@@ -11,11 +11,32 @@ export interface SidenavProps {
 
 export default function Sidenav({ open, navItems }: SidenavProps) {
   return (
-    <Drawer open={open} baseZIndex={1000} autoZIndex={false} modal={true}>
+    <Drawer
+      open={open}
+      pt={{
+        mask: {
+          className: "z-50",
+        },
+      }}
+      style
+      baseZIndex={1000}
+      autoZIndex={false}
+      modal={true}
+    >
       {/* <Drawer.Trigger /> */}
       <Drawer.Portal>
         <Drawer.Header>
           <Drawer.Title />
+          <div className="flex items-center">
+            <Image
+              src="/assets/images/sanzone-horizontal.svg"
+              alt="Sanzone & Abogados"
+              width={200}
+              height={60}
+              className="h-12 w-auto"
+              priority
+            />
+          </div>
           <Drawer.Close />
         </Drawer.Header>
         <Drawer.Content>

@@ -41,9 +41,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  color: #0f172a;
   line-height: 1.3;
-  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -66,7 +64,6 @@ h6 {
 } /* 16px */
 
 p {
-  color: #475569;
   margin-bottom: 1rem;
 }
 
@@ -169,4 +166,8 @@ a {
 
 .border-legal {
   border-color: #e2e8f0;
+}
+
+.p-dreawer-mask {
+  z-index: 1000 !important;
 }

@@ -18,7 +18,7 @@ export const Navbar = ({ navItems }: NavbarProps) => {
               {item.label}
 
               {/* Efecto de subrayado animado usando color del tema */}
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-900 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
             </Link>
           </li>
         ))}
