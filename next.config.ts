@@ -5,6 +5,7 @@ const isProd = process.env.NODE_ENV === "production";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   // assetPrefix: isProd ? "/sanzone-y-abogados/" : "",
+  assetPrefix: "https://josuebaez61.github.io/sanzone-y-abogados/",
   basePath: isProd ? "/sanzone-y-abogados" : "",
   output: "export",
   images: {
