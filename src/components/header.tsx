@@ -7,6 +7,7 @@ import Sidenav from "./sidenav";
 import { useBreakpoints } from "@/hooks";
 import { Breakpoint } from "@/models";
 import Image from "next/image";
+import Logo from "@/../public/assets/images/sanzone-horizontal.svg";
 
 export default function Header() {
   const [openSidenav, setOpenSidenav] = useState(false);
@@ -16,7 +17,7 @@ export default function Header() {
       {/* Logo o nombre del estudio */}
       <div className="flex items-center">
         <Image
-          src="/assets/images/sanzone-horizontal.svg"
+          src={Logo}
           alt="Sanzone & Abogados"
           width={200}
           height={60}
