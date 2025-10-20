@@ -13,15 +13,15 @@ export default function Header() {
   const [openSidenav, setOpenSidenav] = useState(false);
   const { currentBreakpoint } = useBreakpoints();
   return (
-    <header className="flex justify-between items-center px-6 sticky top-0 left-0 right-0 bg-legal-surface border-b border-legal shadow-sm h-20 z-50">
+    <header className="flex justify-between items-center px-8 sticky top-0 left-0 right-0 bg-legal-surface border-b border-legal shadow-sm h-20 z-50">
       {/* Logo o nombre del estudio */}
       <div className="flex items-center">
         <Image
           src={Logo}
           alt="Sanzone & Abogados"
-          width={200}
-          height={60}
-          className="h-12 w-auto"
+          width={250}
+          height={75}
+          className="h-16 w-auto"
           priority
         />
       </div>

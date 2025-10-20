@@ -1,17 +1,17 @@
 export const NAV_ITEMS = [
   {
-    label: "Home",
+    label: "Inicio",
     url: "/",
     icon: "home",
   },
   {
-    label: "Profesores Universitarios",
-    url: "/profesores-universitarios",
+    label: "Jubilaciones",
+    url: "/jubilaciones",
     icon: "users",
   },
   {
-    label: "Fuerzas Armadas",
-    url: "/fuerzas-armadas",
+    label: "Reajustes",
+    url: "/reajustes",
     icon: "users",
   },
   {
@@ -20,13 +20,8 @@ export const NAV_ITEMS = [
     icon: "users",
   },
   {
-    label: "ART",
-    url: "/art",
-    icon: "users",
-  },
-  {
-    label: "Suceciones",
-    url: "/suceciones",
+    label: "Sucesiones",
+    url: "/sucesiones",
     icon: "users",
   },
 ];

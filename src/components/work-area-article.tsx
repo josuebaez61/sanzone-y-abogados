@@ -16,9 +16,6 @@ export const WorkAreaArticle = ({ workArea }: { workArea: WorkArea }) => {
         />
       </div>
       <h3 className="text-md font-bold">{workArea.name}</h3>
-      <p className="text-sm text-gray-600 leading-relaxed">
-        {workArea.description}
-      </p>
     </article>
   );
 };
