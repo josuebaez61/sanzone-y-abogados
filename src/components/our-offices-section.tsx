@@ -11,9 +11,12 @@ export const OurOfficesSection = () => {
   return (
     <Banner backgroundImage="our-offices-section-background.jpeg">
       <div className="p-20">
-        <h2 className="text-5xl font-bold text-left mb-6 text-white">
-          Conoce nuestras oficinas
+        <h2 className="text-5xl font-bold text-left mb-1 text-white">
+          Conoce nuestra oficina
         </h2>
+        <p className="text-lg text-left mb-6 text-white">
+          Te esperamos con la mejor atención
+        </p>
         <BannerButton icon="pi pi-map-marker">Ver ubicacion</BannerButton>
       </div>
     </Banner>

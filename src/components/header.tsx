@@ -13,7 +13,7 @@ export default function Header() {
   const [openSidenav, setOpenSidenav] = useState(false);
   const { currentBreakpoint } = useBreakpoints();
   return (
-    <header className="flex justify-between items-center px-8 sticky top-0 left-0 right-0 bg-legal-surface border-b border-legal shadow-sm h-20 z-50">
+    <header className="flex justify-between items-center px-10 sticky top-0 left-0 right-0 bg-legal-surface border-b border-legal shadow-sm h-20 z-50">
       {/* Logo o nombre del estudio */}
       <div className="flex items-center">
         <Image
