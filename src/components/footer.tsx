@@ -1,6 +1,8 @@
 import { FooterMap } from "./footer-map";
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-black p-6 md:p-10 mt-10 text-white">
       <div className="container mx-auto">
@@ -59,7 +61,8 @@ export const Footer = () => {
         <div className="border-t border-gray-500 mt-8 pt-6">
           <div className="text-center text-gray-100 text-sm">
             <p>
-              &copy; 2024 Sanzone & Abogados. Todos los derechos reservados.
+              &copy; {currentYear} Sanzone & Abogados. Todos los derechos
+              reservados.
             </p>
           </div>
         </div>

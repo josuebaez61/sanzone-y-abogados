@@ -11,7 +11,7 @@ export const OurOfficesSection = () => {
   return (
     <Banner backgroundImage="our-offices-section-background.jpeg">
       <div className="p-20">
-        <h2 className="text-5xl font-bold text-left mb-10 text-white">
+        <h2 className="text-5xl font-bold text-left mb-6 text-white">
           Conoce nuestras oficinas
         </h2>
         <BannerButton icon="pi pi-map-marker">Ver ubicacion</BannerButton>

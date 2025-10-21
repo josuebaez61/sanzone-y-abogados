@@ -20,6 +20,7 @@
 html {
   color-scheme: light !important;
   scroll-behavior: smooth;
+  font-size: 14px; /* Base: 14px para móviles */
 }
 
 body {
@@ -29,8 +30,38 @@ body {
   background-color: #ffffff;
   color: #0f172a;
   line-height: 1.6;
-  font-size: 16px;
   font-weight: 400;
+}
+
+/* Responsive font sizes using Tailwind breakpoints */
+@media (min-width: 640px) {
+  html {
+    font-size: 15px; /* SM: 640px+ */
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; /* MD: 768px+ */
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 16px; /* LG: 1024px+ */
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 17px; /* XL: 1280px+ */
+  }
+}
+
+@media (min-width: 1536px) {
+  html {
+    font-size: 18px; /* 2XL: 1536px+ */
+  }
 }
 
 /* Tipografía profesional para estudio jurídico */
