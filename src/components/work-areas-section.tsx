@@ -4,7 +4,7 @@ import { WorkAreaArticle } from "./work-area-article";
 export const WorkAreasSection = () => {
   return (
     <section className="container mx-auto px-4">
-      <h2 className="text-2xl font-bold text-center mb-10">
+      <h2 className="text-3xl font-bold text-center mb-10">
         Otras Áreas de Trabajo
       </h2>
 

@@ -1,16 +1,24 @@
-export const Banner = () => {
-  const backgroundImage =
+import { PropsWithChildren } from "react";
+
+export interface BannerProps extends PropsWithChildren {
+  backgroundImage: string;
+}
+
+export const Banner = ({ backgroundImage, children }: BannerProps) => {
+  const backgroundImageUrl =
     process.env.NODE_ENV === "production"
-      ? "/sanzone-y-abogados/assets/images/banner-1.jpeg"
-      : "/assets/images/banner-1.jpeg";
+      ? `/sanzone-y-abogados/assets/images/${backgroundImage}`
+      : `/assets/images/${backgroundImage}`;
 
   return (
     <div
       style={{
         height: "600px",
-        background: `url('${backgroundImage}') no-repeat center center`,
+        background: `url('${backgroundImageUrl}') no-repeat center center`,
         backgroundSize: "cover",
       }}
-    ></div>
+    >
+      {children}
+    </div>
   );
 };

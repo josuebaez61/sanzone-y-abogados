@@ -3,6 +3,7 @@ import { NavItem } from "@/models";
 import Link from "next/link";
 import { Drawer } from "primereact/drawer";
 import Image from "next/image";
+import Logo from "@/../public/assets/images/sanzone-horizontal.svg";
 
 export interface SidenavProps {
   open: boolean;
@@ -29,7 +30,7 @@ export default function Sidenav({ open, navItems }: SidenavProps) {
           <Drawer.Title />
           <div className="flex items-center">
             <Image
-              src="/assets/images/sanzone-horizontal.svg"
+              src={Logo}
               alt="Sanzone & Abogados"
               width={200}
               height={60}
