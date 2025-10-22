@@ -3,8 +3,9 @@ import { PropsWithChildren } from "react";
 export interface BannerProps extends PropsWithChildren {
   backgroundImage: string;
   backgroundSize?: "cover" | "contain" | "auto";
-  backgroundPosition?: "center" | "top" | "bottom" | "left" | "right";
+  backgroundPosition?: "center" | "top" | "bottom" | "left" | "right" | string;
   backgroundRepeat?: "no-repeat" | "repeat" | "repeat-x" | "repeat-y";
+  height?: string;
 }
 
 export const Banner = ({
@@ -13,6 +14,7 @@ export const Banner = ({
   backgroundSize = "cover",
   backgroundPosition = "center",
   backgroundRepeat = "no-repeat",
+  height = "600px",
 }: BannerProps) => {
   const backgroundImageUrl =
     process.env.NODE_ENV === "production"
@@ -22,7 +24,7 @@ export const Banner = ({
   return (
     <div
       style={{
-        height: "600px",
+        height: height,
         background: `url('${backgroundImageUrl}')`,
         backgroundRepeat: backgroundRepeat,
         backgroundPosition: backgroundPosition,
