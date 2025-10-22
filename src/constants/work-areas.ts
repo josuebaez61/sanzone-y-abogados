@@ -1,9 +1,10 @@
 import { WorkArea } from "@/models";
 
 export const WORK_AREAS = [
+  new WorkArea("Jubilaciones", "Descripción de las jubilaciones", "mood"),
   new WorkArea(
-    "Enfermedades Laborales",
-    "Descripción de las enfermedades laborales",
+    "Enfermedades",
+    "Descripción de las enfermedades",
     "personal_injury"
   ),
   new WorkArea(
@@ -15,10 +16,5 @@ export const WORK_AREAS = [
     "Liquidación de Impuestos",
     "Descripción de la liquidación de impuestos",
     "calculate"
-  ),
-  new WorkArea(
-    "Defensa al Consumidor",
-    "Descripción de la defensa al consumidor",
-    "support_agent"
   ),
 ];

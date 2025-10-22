@@ -183,3 +183,8 @@ a {
 .p-dreawer-mask {
   z-index: 1000 !important;
 }
+
+.faqs-section ul {
+  list-style: disc;
+  padding-left: 1rem;
+}

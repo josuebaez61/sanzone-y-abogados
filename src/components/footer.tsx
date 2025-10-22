@@ -1,3 +1,4 @@
+import { CONTACT_INFO, WHATSAPP_URL } from "@/constants";
 import { FooterMap } from "./footer-map";
 
 export const Footer = () => {
@@ -17,19 +18,20 @@ export const Footer = () => {
                 <p className="text-gray-300">
                   <span className="font-semibold text-white">Email:</span>{" "}
                   <a
-                    href="mailto:info@sanzone.com"
+                    href={`mailto:${CONTACT_INFO.email}`}
                     className="text-gray-300 hover:text-white transition-colors duration-200"
                   >
-                    info@sanzone.com
+                    {CONTACT_INFO.email}
                   </a>
                 </p>
                 <p className="text-gray-300">
                   <span className="font-semibold text-white">Teléfono:</span>{" "}
                   <a
-                    href="tel:1234567890"
+                    href={WHATSAPP_URL}
+                    target="_blank"
                     className="text-gray-300 hover:text-white transition-colors duration-200"
                   >
-                    1234567890
+                    {CONTACT_INFO.phone}
                   </a>
                 </p>
               </div>
@@ -42,10 +44,11 @@ export const Footer = () => {
               <p className="text-gray-300">
                 <span className="font-semibold text-white">Dirección:</span>{" "}
                 <a
-                  href="https://maps.app.goo.gl/1234567890"
+                  href={CONTACT_INFO.mapUrl}
+                  target="_blank"
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
-                  Av. Sanzone & Abogados
+                  {CONTACT_INFO.address}
                 </a>
               </p>
             </div>
