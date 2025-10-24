@@ -1,5 +1,6 @@
 import { PROCEDURE_ITEMS } from "@/constants";
 import { RetirementProcedureItem } from "@/models";
+
 const ProcedureItem = ({ item }: { item: RetirementProcedureItem }) => {
   return (
     <div className="col-span-1">

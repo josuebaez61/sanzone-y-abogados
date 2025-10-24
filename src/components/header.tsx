@@ -42,7 +42,11 @@ export default function Header() {
         )}
       </div>
 
-      <Sidenav open={openSidenav} navItems={NAV_ITEMS} />
+      <Sidenav
+        open={openSidenav}
+        onOpenChange={(e) => setOpenSidenav(e.value as boolean)}
+        navItems={NAV_ITEMS}
+      />
     </header>
   );
 }
