@@ -3,7 +3,7 @@ import { NavItem } from "@/models";
 import Link from "next/link";
 import { Drawer } from "primereact/drawer";
 import Image from "next/image";
-import Logo from "@/../public/assets/images/sanzone-horizontal.svg";
+import Logo from "@/../public/assets/images/sanzone-2.svg";
 import {
   DrawerChangeEvent,
   DrawerContentInstance,

@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 
 export interface BannerProps extends PropsWithChildren {
   backgroundImage: string;
-  backgroundSize?: "cover" | "contain" | "auto";
+  backgroundSize?: "cover" | "contain" | "auto" | string;
   backgroundPosition?: "center" | "top" | "bottom" | "left" | "right" | string;
   backgroundRepeat?: "no-repeat" | "repeat" | "repeat-x" | "repeat-y";
   height?: string;

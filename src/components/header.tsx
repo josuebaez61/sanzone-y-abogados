@@ -7,7 +7,7 @@ import Sidenav from "./sidenav";
 import { useBreakpoints } from "@/hooks";
 import { Breakpoint } from "@/models";
 import Image from "next/image";
-import Logo from "@/../public/assets/images/sanzone-horizontal.svg";
+import Logo from "@/../public/assets/images/sanzone-2.svg";
 
 export default function Header() {
   const [openSidenav, setOpenSidenav] = useState(false);

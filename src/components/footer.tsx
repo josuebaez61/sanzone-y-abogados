@@ -1,5 +1,7 @@
 import { CONTACT_INFO, WHATSAPP_URL } from "@/constants";
 import { FooterMap } from "./footer-map";
+import Logo from "@/../public/assets/images/sanzone-2.svg";
+import Image from "next/image";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,6 +13,18 @@ export const Footer = () => {
           {/* Columna 1: Información de contacto */}
           <div className="space-y-6 text-center md:text-left">
             <div>
+              <div className="flex justify-center items-center mb-8">
+                <div className="bg-white p-2">
+                  <Image
+                    src={Logo}
+                    alt="Sanzone & Abogados"
+                    width={250}
+                    height={75}
+                    className="h-16 w-auto"
+                    priority
+                  />
+                </div>
+              </div>
               <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
                 Contacto
               </h3>
