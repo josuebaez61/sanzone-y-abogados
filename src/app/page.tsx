@@ -2,7 +2,6 @@ import { AboutUsSection } from "@/components/about-us-section";
 import { Banner } from "@/components/banner";
 import { BranchOffices } from "@/components/branch_offices";
 import { FAQsSection } from "@/components/faqs-section";
-import { OnlineSupportSection } from "@/components/online-support-section";
 import { OurOfficesSection } from "@/components/our-offices-section";
 import { WorkAreasSection } from "@/components/work-areas-section";
 

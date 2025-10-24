@@ -1,6 +1,6 @@
 export const AboutUsSection = () => {
   return (
-    <section className="container mx-auto px-4">
+    <section className="max-w-7xl mx-auto px-4">
       <h2 className="text-3xl font-bold text-center mb-10">Conocenos</h2>
       <p className="text-center text-2xl">
         Soy la <b>Dra. Graciela Sanzone</b>, directora del equipo previsional de

@@ -1,4 +1,3 @@
-import { Button } from "primereact/button";
 import { Banner } from "./banner";
 import { BannerButton } from "./banner-button";
 

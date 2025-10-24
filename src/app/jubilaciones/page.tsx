@@ -14,9 +14,6 @@ export default function Jubilaciones() {
         height="1000px"
       >
         <div className="flex justify-center items-center h-full">
-          {/* <h1 className="text-4xl font-bold text-center text-primary">
-            Jubilaciones
-          </h1> */}
           <BluredCard>
             <div className="flex flex-col lg:flex-row items-center gap-8">
               {/* Imagen circular */}

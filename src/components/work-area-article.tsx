@@ -1,6 +1,4 @@
 import { WorkArea } from "@/models";
-import Image from "next/image";
-import Icon from "@mui/material/Icon";
 
 export const WorkAreaArticle = ({ workArea }: { workArea: WorkArea }) => {
   return (

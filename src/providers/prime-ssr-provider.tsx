@@ -23,7 +23,7 @@ export default function PrimeSSRProvider({
     theme: {
       preset: AppPreset,
       options: {
-        darkModeSelector: false,
+        darkModeSelector: "none",
         cssLayer: {
           name: "primereact",
           order: "base, theme, primereact",

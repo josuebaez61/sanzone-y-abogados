@@ -104,7 +104,7 @@ export default function Sucesiones() {
           {/* Artículo 2: Trámites en ANSES */}
           <article className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-              Cómo hacer los trámites en la ANSES para "heredar" las
+              Cómo hacer los trámites en la ANSES para &quot;heredar&quot; las
               jubilaciones
             </h3>
             <div className="prose prose-lg max-w-none">
