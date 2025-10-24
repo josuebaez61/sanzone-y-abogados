@@ -4,7 +4,7 @@ import { RetirementProcedureItem } from "@/models";
 const ProcedureItem = ({ item }: { item: RetirementProcedureItem }) => {
   return (
     <div className="col-span-1">
-      <article className="bg-surface-100 p-8 rounded-lg gap-6 flex flex-col min-h-[480px]">
+      <article className="bg-surface-100 p-8 rounded-lg gap-6 flex flex-col sm:min-h-[480px]">
         <div className="flex justify-center">
           <div className="rounded-full bg-primary text-primary-contrast w-16 h-16 flex items-center justify-center">
             <span
