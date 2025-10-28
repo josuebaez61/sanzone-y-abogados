@@ -294,17 +294,18 @@ export default function ConveniosInternacionales() {
                             </h5>
                             <ul className="space-y-1 text-indigo-700 text-sm">
                               <li>
-                                • Formulario P.S.6.2 "Certificación de Servicios
-                                y Remuneraciones", y los extendidos con
-                                anterioridad, debidamente certificados.
+                                • Formulario P.S.6.2 &ldquo;Certificación de
+                                Servicios y Remuneraciones&rdquo;, y los
+                                extendidos con anterioridad, debidamente
+                                certificados.
                               </li>
                               <li>
-                                • Formulario P.S.6.1 "Afectación de Haberes"
-                                debidamente certificado, en los casos de
-                                renuncia por Decreto 8820/62, 9202/62 y 557/63
-                                o, si trabajando en una repartición Nacional su
-                                haber sufre descuentos de Seguro de Vida o
-                                Préstamo.
+                                • Formulario P.S.6.1 &ldquo;Afectación de
+                                Haberes&rdquo; debidamente certificado, en los
+                                casos de renuncia por Decreto 8820/62, 9202/62 y
+                                557/63 o, si trabajando en una repartición
+                                Nacional su haber sufre descuentos de Seguro de
+                                Vida o Préstamo.
                               </li>
                               <li>
                                 • Formulario P.S.5.7 "Derivación de Aportes de
@@ -352,10 +353,11 @@ export default function ConveniosInternacionales() {
                             </h5>
                             <ul className="space-y-1 text-indigo-700 text-sm">
                               <li>
-                                • Formularios 558/A - 558/B y 558/C "Solicitud
-                                de Determinación de Deuda y Situación de Revista
-                                Autónomos - Declaración Jurada - SICAM" (Sistema
-                                de Información para Contribuyentes Autónomos y
+                                • Formularios 558/A - 558/B y 558/C
+                                &ldquo;Solicitud de Determinación de Deuda y
+                                Situación de Revista Autónomos - Declaración
+                                Jurada - SICAM&rdquo; (Sistema de Información
+                                para Contribuyentes Autónomos y
                                 Monotributistas). Se obtiene a través de la
                                 página de Internet de AFIP.
                               </li>
@@ -380,10 +382,11 @@ export default function ConveniosInternacionales() {
                             </h5>
                             <ul className="space-y-1 text-indigo-700 text-sm">
                               <li>
-                                • Formularios 558/A - 558/B y 558/C "Solicitud
-                                de Determinación de Deuda y Situación de Revista
-                                Autónomos - Declaración Jurada - SICAM" (Sistema
-                                de Información para Contribuyentes Autónomos y
+                                • Formularios 558/A - 558/B y 558/C
+                                &ldquo;Solicitud de Determinación de Deuda y
+                                Situación de Revista Autónomos - Declaración
+                                Jurada - SICAM&rdquo; (Sistema de Información
+                                para Contribuyentes Autónomos y
                                 Monotributistas). Se obtiene a través de la
                                 página de Internet de AFIP.
                               </li>
@@ -585,9 +588,10 @@ export default function ConveniosInternacionales() {
                         <li className="flex items-start">
                           <span className="text-indigo-500 mr-2 mt-1">•</span>
                           <span>
-                            Formulario P.S.6.4 "Carta Poder". Original, sólo en
-                            caso de no ser incluido en el Formulario de
-                            Solicitud de Prestaciones Previsionales.
+                            Formulario P.S.6.4 &ldquo;Carta Poder&rdquo;.
+                            Original, sólo en caso de no ser incluido en el
+                            Formulario de Solicitud de Prestaciones
+                            Previsionales.
                           </span>
                         </li>
                         <li className="flex items-start">

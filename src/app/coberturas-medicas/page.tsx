@@ -71,8 +71,8 @@ export default function CoberturasMedicas() {
 
               <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
                 <h3 className="text-xl font-bold text-red-800 mb-4">
-                  Derribando un mito: "Jubilarse NO es sinónimo de pasarse a
-                  PAMI"
+                  Derribando un mito: &ldquo;Jubilarse NO es sinónimo de pasarse
+                  a PAMI&rdquo;
                 </h3>
                 <p className="text-red-700">
                   María (nombre cambiado) inició los trámites para obtener su

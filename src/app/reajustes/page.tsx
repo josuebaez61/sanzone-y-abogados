@@ -5,7 +5,7 @@ export default function Reajuste() {
   return (
     <main>
       <Banner
-        backgroundImage="banner-1.jpeg"
+        backgroundImage="reajuste-banner-pexels-ekaterina-bolovtsova-6077326.jpg"
         backgroundSize="cover"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
@@ -20,7 +20,7 @@ export default function Reajuste() {
             <div className="relative z-10 p-8">
               <div className="flex flex-col lg:flex-row items-center gap-8">
                 {/* Imagen circular */}
-                <div className="flex-shrink-0 order-0 md:order-1">
+                {/* <div className="flex-shrink-0 order-0 md:order-1">
                   <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
                     <Image
                       src="/assets/images/banner-2.jpeg"
@@ -31,7 +31,7 @@ export default function Reajuste() {
                       priority
                     />
                   </div>
-                </div>
+                </div> */}
 
                 {/* Texto */}
                 <div className="flex-1 order-1 md:order-0">
@@ -131,9 +131,9 @@ export default function Reajuste() {
                     modificación del haber de una prestación ya otorgada y
                     percibida por el titular, que se efectúa en virtud de la
                     solicitud de revisión, por la aplicación de la doctrina
-                    sentada en caso "Badaro, Adolfo Valentín", que obtuvo
-                    sentencia el 26/11/2007 en la Corte Suprema de Justicia de
-                    la Nación.
+                    sentada en caso &ldquo;Badaro, Adolfo Valentín&rdquo;, que
+                    obtuvo sentencia el 26/11/2007 en la Corte Suprema de
+                    Justicia de la Nación.
                   </p>
                   <p className="text-red-700 leading-relaxed mt-4">
                     Por extensión del criterio fijado en el caso Badaro, los

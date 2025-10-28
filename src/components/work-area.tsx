@@ -11,7 +11,7 @@ export const WorkArea = ({ workArea }: { workArea: WorkAreaModel }) => {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out"></div>
 
         <span
-          className="material-icons material-icons-outlined relative z-10 group-hover:scale-110 transition-transform duration-300 ease-in-out"
+          className="material-icons material-icons-outlined relative z-10 group-hover:scale-110 group-hover:text-primary transition-all duration-300 ease-in-out"
           style={{ fontSize: 60, color: "var(--color-secondary)" }}
         >
           {workArea.icon}
