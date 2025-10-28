@@ -1,5 +1,5 @@
 import { WORK_AREAS } from "@/constants";
-import { WorkAreaArticle } from "./work-area-article";
+import { WorkArea } from "./work-area";
 
 export const WorkAreasSection = () => {
   return (
@@ -8,7 +8,7 @@ export const WorkAreasSection = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {WORK_AREAS.map((workArea) => (
-          <WorkAreaArticle key={workArea.name} workArea={workArea} />
+          <WorkArea key={workArea.name} workArea={workArea} />
         ))}
       </div>
     </section>
