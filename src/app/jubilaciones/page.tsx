@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Jubilaciones() {
   return (
-    <main className="space-y-20">
+    <main>
       <Banner
         backgroundImage="pexels-kampus-8441823.jpg"
         backgroundSize="cover"
@@ -56,7 +56,14 @@ export default function Jubilaciones() {
           </BluredCard>
         </div>
       </Banner>
-      <RetirementProcedureSection />
+
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <RetirementProcedureSection />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
