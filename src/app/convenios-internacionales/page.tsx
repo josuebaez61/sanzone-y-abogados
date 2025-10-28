@@ -308,8 +308,8 @@ export default function ConveniosInternacionales() {
                                 Vida o Préstamo.
                               </li>
                               <li>
-                                • Formulario P.S.5.7 "Derivación de Aportes de
-                                Obra Social", en caso de optar por la misma obra
+                                • Formulario P.S.5.7 &ldquo;Derivación de Aportes de
+                                Obra Social&rdquo;, en caso de optar por la misma obra
                                 social de su actividad laboral.
                               </li>
                             </ul>
