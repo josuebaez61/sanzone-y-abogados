@@ -39,8 +39,8 @@ export default function Sucesiones() {
                     <span className="material-icons material-icons-outline">
                       people
                     </span>{" "}
-                    Cuando el fallecido dejó bienes (inmuebles, cuentas
-                    bancarias, vehículos, etc.).
+                    Si hay varios herederos y es necesario formalizar la
+                    distribución de la herencia.
                   </li>
                   <li>
                     <span className="material-icons material-icons-outline">

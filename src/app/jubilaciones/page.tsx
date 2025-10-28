@@ -8,7 +8,7 @@ export default function Jubilaciones() {
     <main className="space-y-20">
       <Banner
         backgroundImage="pexels-kampus-8441823.jpg"
-        backgroundSize="auto 100%"
+        backgroundSize="cover"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         height="1000px"

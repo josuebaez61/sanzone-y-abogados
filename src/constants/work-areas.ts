@@ -3,9 +3,9 @@ import { WorkArea } from "@/models";
 export const WORK_AREAS = [
   new WorkArea("Jubilaciones", "Descripción de las jubilaciones", "mood"),
   new WorkArea(
-    "Enfermedades",
-    "Descripción de las enfermedades",
-    "personal_injury"
+    "Convenios Internacionales",
+    "Descripción de los convenios internacionales",
+    "public"
   ),
   new WorkArea(
     "Negocios Inmobiliarios",

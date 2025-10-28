@@ -4,9 +4,9 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
   new RetirementProcedureItem(
     "COMPUTO DE APORTES",
     [
-      "Análisis de cantidad de años de servicios",
+      "Análisis de la cantidad de años de servicios",
       "Cálculo estimativo del promedio de los últimos diez años",
-      "Eventualmente incorporar aportes de otras cajas (IPS, cajas profesionales)",
+      "Incorporación en el sistema de reciprocidad de aportes en otras cajas (IPS, cajas profesionales)",
     ],
     1,
     "person_search"
@@ -14,8 +14,8 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
   new RetirementProcedureItem(
     "CONFECCIÓN DE HABER CAJA",
     [
-      "Cálculo equiparable al que determina Anses",
-      "Proyección de un posible juicio",
+      "Confección de cálculo equiparable al que determina ANSeS",
+      "Proyección de un posible juicio de reajuste",
     ],
     2,
     "calculate"
@@ -29,16 +29,16 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
       "Elección de la entidad bancaria",
     ],
     3,
-    "search"
+    "event"
   ),
   new RetirementProcedureItem(
     "MONITOREO",
     [
-      "Chequeo constante en que los actos procesales no sean dilatorios",
-      "Interposición de PRONTOS DESPACHOS (eventualmente)",
+      "Chequeo constante para evitar dilaciones",
+      "Interposición de prontos despachos ante una demora",
     ],
     4,
-    "edit"
+    "visibility"
   ),
   new RetirementProcedureItem(
     "APROBACIÓN",
