@@ -1,8 +1,14 @@
 import { WHATSAPP_URL } from "@/constants";
 
+export const metadata = {
+  title: "Convenios internacionales",
+  description:
+    "Asesoramiento para jubilaciones en el exterior mediante convenios internacionales. Requisitos, documentación y trámites.",
+};
+
 export default function ConveniosInternacionales() {
   return (
-    <main>
+    <main id="main-content">
       {/* Contenido principal sin banner */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
@@ -308,9 +314,10 @@ export default function ConveniosInternacionales() {
                                 Vida o Préstamo.
                               </li>
                               <li>
-                                • Formulario P.S.5.7 &ldquo;Derivación de Aportes de
-                                Obra Social&rdquo;, en caso de optar por la misma obra
-                                social de su actividad laboral.
+                                • Formulario P.S.5.7 &ldquo;Derivación de
+                                Aportes de Obra Social&rdquo;, en caso de optar
+                                por la misma obra social de su actividad
+                                laboral.
                               </li>
                             </ul>
                           </div>
@@ -716,6 +723,8 @@ export default function ConveniosInternacionales() {
                     <a
                       href={WHATSAPP_URL}
                       target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Consultar por WhatsApp"
                       className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                     >
                       Consultar con nuestro equipo

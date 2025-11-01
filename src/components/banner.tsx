@@ -23,6 +23,7 @@ export const Banner = ({
 
   return (
     <div
+      aria-hidden="true"
       style={{
         height: height,
         background: `url('${backgroundImageUrl}')`,

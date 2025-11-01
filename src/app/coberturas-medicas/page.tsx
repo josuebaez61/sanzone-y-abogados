@@ -1,9 +1,15 @@
 import { Banner } from "@/components/banner";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Coberturas médicas",
+  description:
+    "Defensa del derecho a mantener la cobertura médica al jubilarse. Asesoramiento sobre obras sociales y prepagas.",
+};
+
 export default function CoberturasMedicas() {
   return (
-    <main>
+    <main id="main-content">
       <Banner
         backgroundImage="banner-1.jpeg"
         backgroundSize="cover"
@@ -12,7 +18,7 @@ export default function CoberturasMedicas() {
         height="1000px"
       >
         <div className="flex justify-center items-center h-full">
-          <div className="relative max-w-6xl mx-auto">
+          <div className="relative max-w-6xl mx-auto px-4">
             {/* Fondo blur */}
             <div className="absolute inset-0 bg-black/20 backdrop-blur-md rounded-lg"></div>
 

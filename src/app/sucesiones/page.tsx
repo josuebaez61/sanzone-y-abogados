@@ -1,9 +1,15 @@
 import { Banner } from "@/components/banner";
 import { BluredCard } from "@/components/blured-card";
 
+export const metadata = {
+  title: "Sucesiones",
+  description:
+    "Asesoramiento en juicios sucesorios: inicio, trámites y vinculación con seguridad social y haberes devengados.",
+};
+
 export default function Sucesiones() {
   return (
-    <main className="space-y-20">
+    <main id="main-content" className="space-y-20">
       <Banner
         backgroundImage="pexels-pixabay-261621.jpg"
         backgroundSize="cover"

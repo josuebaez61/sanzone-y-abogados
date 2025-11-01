@@ -7,7 +7,7 @@ export interface NavbarProps {
 
 export const Navbar = ({ navItems }: NavbarProps) => {
   return (
-    <nav className="flex items-center">
+    <nav className="flex items-center" aria-label="Navegación principal">
       <ul className="flex items-center gap-6">
         {navItems.map((item) => (
           <li key={item.label}>

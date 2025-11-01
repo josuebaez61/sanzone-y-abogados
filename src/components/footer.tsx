@@ -7,7 +7,7 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-black p-6 md:p-10 text-white">
+    <footer role="contentinfo" className="bg-black p-6 md:p-10 text-white">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Columna 1: Información de contacto */}
@@ -34,6 +34,7 @@ export const Footer = () => {
                   <a
                     href={`mailto:${CONTACT_INFO.email}`}
                     className="text-gray-300 hover:text-white transition-colors duration-200"
+                    aria-label={`Enviar correo a ${CONTACT_INFO.email}`}
                   >
                     {CONTACT_INFO.email}
                   </a>
@@ -43,6 +44,8 @@ export const Footer = () => {
                   <a
                     href={WHATSAPP_URL}
                     target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Abrir WhatsApp ${CONTACT_INFO.phone}`}
                     className="text-gray-300 hover:text-white transition-colors duration-200"
                   >
                     {CONTACT_INFO.phone}
@@ -60,6 +63,8 @@ export const Footer = () => {
                 <a
                   href={CONTACT_INFO.mapUrl}
                   target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Ver ubicación: ${CONTACT_INFO.address}`}
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
                   {CONTACT_INFO.address}

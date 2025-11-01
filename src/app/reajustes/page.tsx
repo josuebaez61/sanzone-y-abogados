@@ -1,8 +1,14 @@
 import { Banner } from "@/components/banner";
 
+export const metadata = {
+  title: "Reajustes de haberes",
+  description:
+    "Reclamos administrativos y judiciales de reajuste de haberes previsionales para obtener un haber correcto.",
+};
+
 export default function Reajuste() {
   return (
-    <main>
+    <main id="main-content">
       <Banner
         backgroundImage="reajuste-banner-pexels-ekaterina-bolovtsova-6077326.jpg"
         backgroundSize="cover"
