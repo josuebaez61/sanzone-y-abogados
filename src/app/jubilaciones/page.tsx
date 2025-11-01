@@ -2,6 +2,7 @@ import { Banner } from "@/components/banner";
 import { BluredCard } from "@/components/blured-card";
 import { RetirementProcedureSection } from "@/components/retirement-procedure-section";
 import Image from "next/image";
+import { getImagePath } from "@/utils/image-path";
 
 export const metadata = {
   title: "Jubilaciones",
@@ -27,7 +28,7 @@ export default function Jubilaciones() {
                 <div className="flex-shrink-0 order-0 lg:order-1">
                   <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
                     <Image
-                      src="/assets/images/sanzone-5.jpg"
+                      src={getImagePath("assets/images/sanzone-5.jpg")}
                       alt="Jubilaciones - Sanzone & Abogados"
                       width={192}
                       height={192}

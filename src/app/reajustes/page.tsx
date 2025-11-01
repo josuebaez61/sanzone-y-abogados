@@ -1,6 +1,7 @@
 import { Banner } from "@/components/banner";
 import { ReajusteProcedureSection } from "@/components/reajuste-procedure-section";
 import Image from "next/image";
+import { getImagePath } from "@/utils/image-path";
 
 export const metadata = {
   title: "Reajustes de haberes",
@@ -30,7 +31,7 @@ export default function Reajuste() {
                 <div className="flex-shrink-0 order-0 lg:order-1">
                   <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
                     <Image
-                      src="/assets/images/sanzone-5.jpg"
+                      src={getImagePath("assets/images/sanzone-5.jpg")}
                       alt="Jubilaciones - Sanzone & Abogados"
                       width={192}
                       height={192}
@@ -221,7 +222,9 @@ export default function Reajuste() {
             </h2>
             <div className="w-full rounded-lg overflow-hidden shadow-md">
               <iframe
-                src="/assets/pdf/Cuadros_Comparativos_Jurisprudencia_2025.pdf"
+                src={getImagePath(
+                  "assets/pdf/Cuadros_Comparativos_Jurisprudencia_2025.pdf"
+                )}
                 title="Cuadros Comparativos con Jurisprudencia Actualizada al 2025"
                 className="w-full h-[800px] border-0"
                 aria-label="Documento PDF de cuadros comparativos con jurisprudencia actualizada al 2025"
@@ -230,7 +233,9 @@ export default function Reajuste() {
             <p className="text-center text-gray-600 mt-4 text-sm">
               Si no puede visualizar el documento,{" "}
               <a
-                href="/assets/pdf/Cuadros_Comparativos_Jurisprudencia_2025.pdf"
+                href={getImagePath(
+                  "assets/pdf/Cuadros_Comparativos_Jurisprudencia_2025.pdf"
+                )}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 underline"

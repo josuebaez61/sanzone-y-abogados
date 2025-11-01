@@ -1,4 +1,5 @@
 import { PropsWithChildren } from "react";
+import { getImagePath } from "@/utils/image-path";
 
 export interface BannerProps extends PropsWithChildren {
   backgroundImage: string;
@@ -16,10 +17,7 @@ export const Banner = ({
   backgroundRepeat = "no-repeat",
   height = "600px",
 }: BannerProps) => {
-  const backgroundImageUrl =
-    process.env.NODE_ENV === "production"
-      ? `/sanzone-y-abogados/assets/images/${backgroundImage}`
-      : `/assets/images/${backgroundImage}`;
+  const backgroundImageUrl = getImagePath(`assets/images/${backgroundImage}`);
 
   return (
     <div

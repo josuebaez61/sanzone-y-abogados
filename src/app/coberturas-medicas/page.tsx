@@ -1,5 +1,6 @@
 import { Banner } from "@/components/banner";
 import Image from "next/image";
+import { getImagePath } from "@/utils/image-path";
 
 export const metadata = {
   title: "Coberturas médicas",
@@ -26,10 +27,10 @@ export default function CoberturasMedicas() {
             <div className="relative z-10 p-8">
               <div className="flex flex-col lg:flex-row items-center gap-8">
                 {/* Imagen circular */}
-                <div className="flex-shrink-0 order-0 md:order-1">
+                {/* <div className="flex-shrink-0 order-0 md:order-1">
                   <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
                     <Image
-                      src="/assets/images/banner-2.jpeg"
+                      src={getImagePath("assets/images/banner-2.jpeg")}
                       alt="Coberturas Médicas - Sanzone & Abogados"
                       width={192}
                       height={192}
@@ -37,7 +38,7 @@ export default function CoberturasMedicas() {
                       priority
                     />
                   </div>
-                </div>
+                </div> */}
 
                 {/* Texto */}
                 <div className="flex-1 order-1 md:order-0">

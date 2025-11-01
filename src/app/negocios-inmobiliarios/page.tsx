@@ -1,6 +1,7 @@
 import { Banner } from "@/components/banner";
 import { BluredCard } from "@/components/blured-card";
 import Image from "next/image";
+import { getImagePath } from "@/utils/image-path";
 
 export const metadata = {
   title: "Negocios inmobiliarios",
@@ -45,7 +46,9 @@ export default function NegociosInmobiliarios() {
             <div className="flex flex-col lg:flex-row">
               <div className="lg:w-1/2 relative h-96 lg:h-auto">
                 <Image
-                  src="/assets/images/pexels-matthiaszomer-618158.jpg"
+                  src={getImagePath(
+                    "assets/images/pexels-matthiaszomer-618158.jpg"
+                  )}
                   alt="Contratos y operaciones inmobiliarias"
                   fill
                   className="object-cover"
@@ -90,7 +93,9 @@ export default function NegociosInmobiliarios() {
             <div className="flex flex-col lg:flex-row-reverse">
               <div className="lg:w-1/2 relative h-96 lg:h-auto">
                 <Image
-                  src="/assets/images/pexels-pavel-danilyuk-5520322.jpg"
+                  src={getImagePath(
+                    "assets/images/pexels-pavel-danilyuk-5520322.jpg"
+                  )}
                   alt="Propiedad horizontal y consorcios"
                   fill
                   className="object-cover"
@@ -139,7 +144,9 @@ export default function NegociosInmobiliarios() {
             <div className="flex flex-col lg:flex-row">
               <div className="lg:w-1/2 relative h-96 lg:h-auto">
                 <Image
-                  src="/assets/images/pexels-expect-best-79873-323772.jpg"
+                  src={getImagePath(
+                    "assets/images/pexels-expect-best-79873-323772.jpg"
+                  )}
                   alt="Condominio y medianería"
                   fill
                   className="object-cover"
@@ -180,7 +187,9 @@ export default function NegociosInmobiliarios() {
             <div className="flex flex-col lg:flex-row-reverse">
               <div className="lg:w-1/2 relative h-96 lg:h-auto">
                 <Image
-                  src="/assets/images/pexels-louie-alma-2154387078-33197285.jpg"
+                  src={getImagePath(
+                    "assets/images/pexels-louie-alma-2154387078-33197285.jpg"
+                  )}
                   alt="Alquileres y desalojos"
                   fill
                   className="object-cover"
@@ -222,7 +231,9 @@ export default function NegociosInmobiliarios() {
             <div className="flex flex-col lg:flex-row">
               <div className="lg:w-1/2 relative h-96 lg:h-auto">
                 <Image
-                  src="/assets/images/pexels-scottwebb-1029599.jpg"
+                  src={getImagePath(
+                    "assets/images/pexels-scottwebb-1029599.jpg"
+                  )}
                   alt="Sucesiones y bienes inmuebles"
                   fill
                   className="object-cover"
@@ -262,7 +273,9 @@ export default function NegociosInmobiliarios() {
             <div className="flex flex-col lg:flex-row-reverse">
               <div className="lg:w-1/2 relative h-96 lg:h-auto">
                 <Image
-                  src="/assets/images/pexels-karola-g-7876050.jpg"
+                  src={getImagePath(
+                    "assets/images/pexels-karola-g-7876050.jpg"
+                  )}
                   alt="Prevención de conflictos inmobiliarios"
                   fill
                   className="object-cover"
