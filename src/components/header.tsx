@@ -1,5 +1,4 @@
 "use client";
-import { Button } from "primereact/button";
 import { useState } from "react";
 import { Navbar } from "./navbar";
 import { NAV_ITEMS } from "@/constants";
@@ -35,17 +34,16 @@ export default function Header() {
       {/* Navegación */}
       <div className="flex items-center">
         {currentBreakpoint < Breakpoint.LG ? (
-          <Button
-            rounded
-            variant="text"
+          <button
+            type="button"
             aria-label="Abrir menú de navegación"
             aria-expanded={openSidenav}
             aria-controls="mobile-navigation"
-            className="text-legal-secondary hover:text-legal hover:bg-legal-surface"
+            className="p-3 rounded-full text-legal-secondary hover:text-legal hover:bg-legal-surface transition-colors duration-200 focus:outline-none"
             onClick={() => setOpenSidenav(!openSidenav)}
           >
-            <i className="pi pi-bars text-lg" />
-          </Button>
+            <i className="pi pi-bars text-3xl" />
+          </button>
         ) : (
           <Navbar navItems={NAV_ITEMS} />
         )}

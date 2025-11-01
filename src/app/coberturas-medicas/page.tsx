@@ -161,19 +161,6 @@ export default function CoberturasMedicas() {
                 </div>
               </div>
 
-              <div className="mt-8 p-6 bg-gray-100 rounded-lg">
-                <p className="text-gray-700 font-medium">
-                  Lo anterior, lo podés comprobar en la web de la{" "}
-                  <a
-                    className="text-blue-500 hover:text-blue-700"
-                    href="https://www.sssalud.gob.ar/index.php?page=os_pas_jub"
-                    target="_blank"
-                  >
-                    Superintendencia
-                  </a>
-                </p>
-              </div>
-
               <div className="mt-6 p-6 bg-red-100 border border-red-300 rounded-lg">
                 <p className="text-red-800 font-semibold">
                   <strong>Nota importante:</strong> Si ya aceptaste tu traslado

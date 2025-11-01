@@ -1,4 +1,6 @@
 import { Banner } from "@/components/banner";
+import { ReajusteProcedureSection } from "@/components/reajuste-procedure-section";
+import Image from "next/image";
 
 export const metadata = {
   title: "Reajustes de haberes",
@@ -25,18 +27,18 @@ export default function Reajuste() {
             <div className="relative z-10 p-8">
               <div className="flex flex-col lg:flex-row items-center gap-8">
                 {/* Imagen circular */}
-                {/* <div className="flex-shrink-0 order-0 md:order-1">
+                <div className="flex-shrink-0 order-0 lg:order-1">
                   <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
                     <Image
-                      src="/assets/images/banner-2.jpeg"
-                      alt="Reajuste de Haberes - Sanzone & Abogados"
+                      src="/assets/images/sanzone-5.jpg"
+                      alt="Jubilaciones - Sanzone & Abogados"
                       width={192}
                       height={192}
                       className="w-full h-full object-cover"
                       priority
                     />
                   </div>
-                </div> */}
+                </div>
 
                 {/* Texto */}
                 <div className="flex-1 order-1 md:order-0">
@@ -200,49 +202,44 @@ export default function Reajuste() {
                   </div>
                 </div>
 
-                {/* Nuestros servicios */}
+                {/* Procedimiento de juicio */}
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">
-                    Nuestros Servicios - Evaluación del reajuste:
-                  </h3>
-                  <ul className="text-gray-700 space-y-3">
-                    <li className="flex items-start">
-                      <span className="text-blue-500 mr-2">•</span>
-                      <span>
-                        Evaluamos cuánto debería cobrar en base a sus aportes.
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-500 mr-2">•</span>
-                      <span>
-                        Representación de nuestros clientes ante ANSES para el
-                        reclamo con el monto total que debería cobrar.
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-500 mr-2">•</span>
-                      <span>
-                        Representación en juicio contra ANSES en caso de
-                        negativa (siempre, sin excepción, la respuesta es
-                        negativa).
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                {/* Requisitos */}
-                <div className="bg-red-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-bold text-red-800 mb-4">
-                    Requisitos para el reclamo de Reajuste previsional:
-                  </h3>
-                  <p className="text-red-700 leading-relaxed">
-                    Tener aportes en relación de dependencia (es decir no aportó
-                    como autónomo o monotributista) los últimos 10 años o al
-                    menos 5 antes de jubilarse.
-                  </p>
+                  <ReajusteProcedureSection />
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sección de Cuadros Comparativos */}
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+              Cuadros Comparativos con Jurisprudencia Actualizada al 2025
+            </h2>
+            <div className="w-full rounded-lg overflow-hidden shadow-md">
+              <iframe
+                src="/assets/pdf/Cuadros_Comparativos_Jurisprudencia_2025.pdf"
+                title="Cuadros Comparativos con Jurisprudencia Actualizada al 2025"
+                className="w-full h-[800px] border-0"
+                aria-label="Documento PDF de cuadros comparativos con jurisprudencia actualizada al 2025"
+              />
+            </div>
+            <p className="text-center text-gray-600 mt-4 text-sm">
+              Si no puede visualizar el documento,{" "}
+              <a
+                href="/assets/pdf/Cuadros_Comparativos_Jurisprudencia_2025.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+                aria-label="Abrir PDF en una nueva pestaña"
+              >
+                haga clic aquí para descargarlo
+              </a>
+              .
+            </p>
           </div>
         </div>
       </section>
