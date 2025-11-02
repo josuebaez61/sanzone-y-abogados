@@ -43,10 +43,11 @@ export default function Jubilaciones() {
                     ¿Qué es la Jubilación?
                   </h2>
                   <p className="text-xl text-white leading-relaxed">
-                    Jubilación es el acto administrativo emanado por la ANSeS,
-                    por el que un trabajador activo, solicita pasar a una
-                    situación pasiva o híbrida laboral tras haber alcanzado la
-                    edad legal para ello y cumpliendo con los años de servicios.
+                    Jubilación es el acto administrativo emanado por la ANSeS
+                    que concede un beneficio por la contingencia de adultez; la
+                    procedencia de dicho beneficio se da cuando el trabajador ha
+                    alcanzado la edad y los años de servicios requeridos en el
+                    régimen SIPA (Sistema integrado Previsional Argentino)
                   </p>
                   <p className="text-xl text-white leading-relaxed">
                     Los requisitos están establecidos en el ordenamiento

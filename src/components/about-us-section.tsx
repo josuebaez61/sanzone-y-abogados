@@ -5,7 +5,7 @@ export const AboutUsSection = () => {
         <div className="bg-white rounded-lg shadow-lg p-8">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center">
-              Conócenos
+              Conocenos
             </h2>
             <div className="p-6 rounded-lg">
               <p className="text-center text-xl text-gray-700 leading-relaxed">

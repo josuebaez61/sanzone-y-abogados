@@ -4,9 +4,9 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
   new RetirementProcedureItem(
     "COMPUTO DE APORTES",
     [
-      "Análisis de la cantidad de años de servicios",
-      "Cálculo estimativo del promedio de los últimos diez años",
-      "Incorporación en el sistema de reciprocidad de aportes en otras cajas (IPS, cajas profesionales)",
+      "Análisis de la cantidad de años de servicios.",
+      "Cálculo estimativo del promedio de los últimos diez años.",
+      "Incorporación en el sistema de reciprocidad de aportes en otras cajas (IPS, cajas profesionales).",
     ],
     1,
     "person_search"
@@ -14,8 +14,8 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
   new RetirementProcedureItem(
     "CONFECCIÓN DE HABER CAJA",
     [
-      "Confección de cálculo equiparable al que determina ANSeS",
-      "Proyección de un posible juicio de reajuste",
+      "Confección de cálculo equiparable al que determina ANSeS.",
+      "Proyección de un posible juicio de reajuste.",
     ],
     2,
     "calculate"
@@ -23,10 +23,10 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
   new RetirementProcedureItem(
     "TURNO EN ANSES",
     [
-      "Presentación de SICAM (de requerirlo)",
-      "Presentación de formularios de rigor",
-      "Caratulación del expediente administrativo",
-      "Elección de la entidad bancaria",
+      "Presentación de SICAM (de requerirlo).",
+      "Presentación de formularios de rigor.",
+      "Caratulación del expediente administrativo.",
+      "Elección de la entidad bancaria.",
     ],
     3,
     "event"
@@ -34,8 +34,8 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
   new RetirementProcedureItem(
     "MONITOREO",
     [
-      "Chequeo constante para evitar dilaciones",
-      "Interposición de prontos despachos ante una demora",
+      "Chequeo constante para evitar dilaciones.",
+      "Interposición de prontos despachos ante una demora.",
     ],
     4,
     "visibility"
@@ -43,8 +43,8 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
   new RetirementProcedureItem(
     "APROBACIÓN",
     [
-      "Control de que el expediente haya sido resuelto favorablemente",
-      "Control desde el plazo de aprobación al del efectivo cobro",
+      "Control de que el expediente haya sido resuelto favorablemente.",
+      "Control desde el plazo de aprobación al del efectivo cobro.",
     ],
     5,
     "check"
@@ -52,9 +52,9 @@ export const PROCEDURE_ITEMS: RetirementProcedureItem[] = [
   new RetirementProcedureItem(
     "PRIMER PAGO",
     [
-      "Acompañamiento al beneficiario a la entidad bancaria",
-      "Asesoramiento con respecto a los paquetes comerciales de las entidades bancarias",
-      "Facturación",
+      "Acompañamiento al beneficiario a la entidad bancaria.",
+      "Asesoramiento con respecto a los paquetes comerciales de las entidades bancarias.",
+      "Facturación.",
     ],
     6,
     "attach_money"

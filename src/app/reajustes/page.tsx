@@ -47,10 +47,14 @@ export default function Reajuste() {
                     ¿Qué es el REAJUSTE de haberes?
                   </h2>
                   <p className="text-xl text-white leading-relaxed">
-                    El Reajuste de Haberes es el reclamo administrativo y
-                    judicial contra la ANSeS con el fin de cobrar un correcto
-                    haber jubilatorio respetando los parámetros judiciales de la
-                    doctrina de la C.S.J.N.
+                    El juicio de reajuste de haberes es el reclamo judicial
+                    contra la ANSeS con el fin de poder percibir un correcto
+                    haber jubilatorio, respetando las doctrinas judiciales y la
+                    normativa supra constitucional en materia de Derechos
+                    humanos de las Personas Mayores; lo que se busca con este
+                    procedimiento es respetar la “Proporcionalidad” que debe de
+                    existir entre un activo y un pasivo y apartarse de los
+                    cálculos arbitrarios que impone ANSeS.
                   </p>
                 </div>
               </div>
@@ -113,18 +117,18 @@ export default function Reajuste() {
                   </h3>
                   <ul className="text-yellow-700 space-y-2">
                     <li>
-                      • <strong>Actualización del haber mensual</strong>
+                      • <strong>Actualización del haber mensual.</strong>
                     </li>
                     <li>
                       • <strong>Retroactivo considerable</strong> en muchos
-                      casos
+                      casos.
                     </li>
                     <li>
                       • <strong>Diferencias desde dos años antes</strong> del
-                      inicio del reclamo
+                      inicio del reclamo.
                     </li>
                     <li>
-                      • <strong>Pago efectivo</strong> por parte de ANSES
+                      • <strong>Pago efectivo</strong> por parte de ANSES.
                     </li>
                   </ul>
                 </div>
@@ -193,12 +197,12 @@ export default function Reajuste() {
                   <p className="text-teal-700 leading-relaxed mb-4">
                     Aun si se jubiló con la moratoria, pero tenía 10 años en
                     relación de dependencia, amerita que haga la consulta y
-                    confirmes cual es el haber que te corresponde.
+                    confirme cual es el haber que te corresponde.
                   </p>
                   <div className="bg-teal-100 p-4 rounded border-l-4 border-teal-500">
-                    <p className="text-teal-800 font-semibold">
-                      Usted NO debe resignarse, no permita que un haber
-                      jubilatorio menor al que por derecho le corresponde.
+                    <p className="text-teal-800 text-lg font-bold">
+                      Usted NO debe resignarse, ¡no permita que su haber
+                      jubilatorio sea menor al que por derecho le corresponde!
                     </p>
                   </div>
                 </div>

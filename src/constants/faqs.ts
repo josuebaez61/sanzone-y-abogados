@@ -24,20 +24,20 @@ export const faqs = [
   ),
   new FAQ(
     "¿Existe el 82% móvil?",
-    `<p>El concepto del "82% móvil" para jubilaciones no está vigente para la mayoría de los jubilados, a pesar de que se busca su implementación legislativamente. Actualmente, solo algunos jubilados de regímenes especiales lo tienen, como magistrados, funcionarios del servicio exterior, investigadores científicos y docentes universitarios, además de algunos empleados públicos provinciales en cajas no transferidas</p>`
+    `<p>El concepto del "82% móvil" para jubilaciones no está vigente para la mayoría de los jubilados, a pesar de que se busca su implementación legislativamente. Actualmente, solo algunos jubilados de regímenes especiales lo tienen, como magistrados, funcionarios del servicio exterior, investigadores científicos y docentes universitarios, además de algunos empleados públicos provinciales en cajas no transferidas.</p>`
   ),
   new FAQ(
     "¿Puedo trabajar una vez jubilado?",
     `
     <p>La respuesta es <strong>SÍ</strong>, no obstante, tenés que tener en cuenta las siguientes consideraciones:</p>
     <h2>Aportes que se te descuentan</h2>
-    <p>Aunque ya hayas conseguido jubilarte, tenés la obligación de realizar aportes y contribuciones sobre tu nuevo sueldo al volver a la actividad laboral en relación de dependencia.</p>
+    <p>Aunque ya hayas conseguido jubilarte, tenés la obligación legal de seguir realizando aportes y contribuciones sobre tu sueldo al continuar con la actividad laboral; vale decir que los aportes serán destinados al Fondo Nacional de Empleo.</p>
 
     <h2>Gestión del nuevo sueldo</h2>
     <p>Si querés gestionar tu nuevo sueldo de la forma más cómoda, podés informarte sobre los requisitos para una exención del sueldo y cómo podés cambiar tu situación de revista en ANSES.</p>
 
     <h2>Antigüedad e indemnización</h2>
-    <p>Si te jubilás y seguís trabajando para el mismo empleador, la ley considera que finalizaste tu relación laboral anterior y comenzás una nueva.</p>
+    <p>Si te jubilas y seguís trabajando para el mismo empleador, la ley considera que finalizaste tu relación laboral anterior en términos de indemnización por antigüedad por ley 20.744 (L.C.T.), pero mantendrás los períodos adquiridos en materia de licencias y vacaciones.</p>
     `
   ),
   new FAQ(
@@ -46,7 +46,7 @@ export const faqs = [
   ),
   new FAQ(
     "Una vez jubilado, ¿puedo seguir facturando?",
-    `<p>Sí, una vez jubilado podés seguir facturando, ya sea como trabajador independiente (autónomo o monotributista) o como empleado en relación de dependencia. Si sos monotributista, debés informar a la AFIP tu condición de jubilado para modificar tu situación y pagar solo los componentes no relacionados con la jubilación y obra social.</p>`
+    `<p>Sí, una vez jubilado podés seguir facturando, ya sea como trabajador independiente (autónomo o monotributista) o como empleado en relación de dependencia. Si sos monotributista, debés informar a la AFIP tu condición de jubilado para modificar tu situación y desafectar  los componentes relacionados con la jubilación y obra social.</p>`
   ),
   new FAQ(
     "¿Qué moratorias se encuentran vigentes?",
@@ -57,7 +57,7 @@ export const faqs = [
     `<p>Si realizaste aportes en dos cajas previsionales (por ejemplo, ANSES y una caja provincial), debes solicitar un <b>reconocimiento de servicios</b> en la caja donde realizaste la menor cantidad de aportes, para poder unificarlos en la caja principal y así iniciar el trámite jubilatorio donde te corresponde.</p>`
   ),
   new FAQ(
-    "¿Sirve el amparo para mantener mi cobertura?",
+    "¿Sirve el amparo para mantener mi cobertura medica?",
     `<p>Sí, el amparo es un recurso legal efectivo para mantener tu obra social al jubilarte si esta se niega a continuar la afiliación, ya que la ley protege tu derecho a mantener la cobertura de salud. Si tu obra social no acepta tu continuidad, puedes iniciar un juicio de amparo para que un juez la obligue a seguir aceptando los aportes de tu jubilación y garantizar la cobertura.</p>`
   ),
 ];
