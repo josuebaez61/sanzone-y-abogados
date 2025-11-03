@@ -1,14 +1,14 @@
 {
   "name": "sanzone-y-abogados",
-  "homepage": "https://josuebaez61.github.io/sanzone-y-abogados",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev --turbopack",
-    "build": "cross-env NODE_ENV=production NEXT_PUBLIC_BASE_PATH=/sanzone-y-abogados next build",
+    "build:test": "cross-env NODE_ENV=test NEXT_PUBLIC_BASE_PATH=/sanzone-y-abogados next build",
+    "build": "cross-env NODE_ENV=production NEXT_PUBLIC_BASE_PATH=/ next build",
     "start": "next start",
     "lint": "eslint",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:test",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {

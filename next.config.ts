@@ -1,13 +1,10 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  assetPrefix: isProd
-    ? "https://josuebaez61.github.io/sanzone-y-abogados/"
-    : "",
-  basePath: isProd ? "/sanzone-y-abogados" : "",
+  basePath: basePath,
   images: {
     unoptimized: true,
     remotePatterns: [
