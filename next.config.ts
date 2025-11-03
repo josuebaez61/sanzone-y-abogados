@@ -8,7 +8,6 @@ const nextConfig: NextConfig = {
     ? "https://josuebaez61.github.io/sanzone-y-abogados/"
     : "",
   basePath: isProd ? "/sanzone-y-abogados" : "",
-  output: "export",
   images: {
     unoptimized: true,
     remotePatterns: [

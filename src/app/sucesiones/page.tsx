@@ -16,7 +16,7 @@ export default function Sucesiones() {
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
       >
-        <div className="flex justify-center items-center h-full">
+        <div className="flex justify-center items-center h-full max-w-6xl mx-auto">
           <BluredCard>
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <article className="flex-1 order-1 lg:order-0">
@@ -63,7 +63,7 @@ export default function Sucesiones() {
       </Banner>
       {/* Sección principal de contenido */}
       <section className="container mx-auto px-4 py-16">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
             ¿Qué relación tienen los juicios sucesorios y la seguridad social?
           </h2>

@@ -51,7 +51,7 @@ export default function Reajuste() {
                     contra la ANSeS con el fin de poder percibir un correcto
                     haber jubilatorio, respetando las doctrinas judiciales y la
                     normativa supra constitucional en materia de Derechos
-                    humanos de las Personas Mayores; lo que se busca con este
+                    Humanos de las Personas Mayores; lo que se busca con este
                     procedimiento es respetar la “Proporcionalidad” que debe de
                     existir entre un activo y un pasivo y apartarse de los
                     cálculos arbitrarios que impone ANSeS.
@@ -197,7 +197,7 @@ export default function Reajuste() {
                   <p className="text-teal-700 leading-relaxed mb-4">
                     Aun si se jubiló con la moratoria, pero tenía 10 años en
                     relación de dependencia, amerita que haga la consulta y
-                    confirme cual es el haber que te corresponde.
+                    confirme cual es el haber que le corresponde.
                   </p>
                   <div className="bg-teal-100 p-4 rounded border-l-4 border-teal-500">
                     <p className="text-teal-800 text-lg font-bold">

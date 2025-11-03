@@ -23,7 +23,7 @@ export const BranchOffices = () => {
               </div>
 
               <div className="p-6 rounded-lg max-w-4xl">
-                <p className="text-center text-xl text-gray-700 leading-relaxed">
+                <p className="text-2xl leading-relaxed text-center text-gray-700 leading-relaxed">
                   Además de nuestra oficina principal, disponemos de oficinas
                   descentralizadas en{" "}
                   <strong className="text-primary">zona oeste</strong> y

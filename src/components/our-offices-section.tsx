@@ -15,7 +15,7 @@ export const OurOfficesSection = () => {
 
           {/* Contenido */}
           <div className="relative z-10 p-12 text-center">
-            <h2 className="text-5xl font-bold text-white mb-4">
+            <h2 className="text-4xl font-bold text-white mb-4">
               Conoce nuestra oficina
             </h2>
             <p className="text-2xl text-white mb-8 leading-relaxed">
