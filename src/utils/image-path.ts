@@ -8,8 +8,7 @@ export function getImagePath(path: string): string {
   const cleanPath = path.startsWith("/") ? path.slice(1) : path;
 
   // Check if we're in production and basePath is configured
-  const isProd = process.env.NODE_ENV === "production";
-  const basePath = isProd ? "/sanzone-y-abogados" : "";
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   // Return path with basePath if in production
   return basePath ? `${basePath}/${cleanPath}` : `/${cleanPath}`;
